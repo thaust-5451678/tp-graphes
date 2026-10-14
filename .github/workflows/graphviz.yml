@@ -9,4 +9,4 @@ jobs:
     - name: Check out repository code
       uses: actions/checkout@v6
     - name: Lancement graphviz
-        run: ./run1.sh g1
+      run: ./run1.sh g1
