@@ -9,9 +9,9 @@ jobs:
     - name: Check out repository code
       uses: actions/checkout@v6
     - name: Lancement graphviz
-      run: ./run1.sh g1
+      run: ./run2.sh
     - name: upload du résultat
       uses: actions/upload-artifact@v4
       with:
-        name: g1
-        path: g1.svg
+        name: Fichiers SVG
+        path: *.svg
