@@ -1,5 +1,5 @@
-#tool=dot
-tool=neato
+tool=dot
+#tool=neato
 
 for a in *.dot;
 do
